@@ -4,6 +4,7 @@ This repository contains few Python3 tools for PDF steganography and steganalysi
 All of the tools were written during working on Bachelor thesis "Research on PDF Files Steganalysis" (originally written in Latvian).
 
 ##############################################################################################################################################
+
 Algorithms used for PDF steganography tools (more details in writeStego.py and readStego.py comments):
  - Modifying /MediaBox array's values 
  - Modifying Page Tree's /Count value to hide pages (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7517136/)
@@ -11,6 +12,7 @@ Algorithms used for PDF steganography tools (more details in writeStego.py and r
 *Tools for hiding data in PDF files were written for Windows OS.
 
 ##############################################################################################################################################
+
 Tools for analyzing PDF stream's text operators.
  - Counting how many text operators' values the PDF file contains
  - Extracting all of the TJ operator's values [for steganalysis against pdf_hide tool (https://github.com/ncanceill/pdf_hide) by N. Canceill]
@@ -20,6 +22,7 @@ sudo apt-get update
 sudo apt-get install qpdf
 
 ##############################################################################################################################################
+
 BONUS:
  - Tool for extracting a file hidden in a PDF document via wbStego4open software (http://wbstego.wbailer.com/)
 
