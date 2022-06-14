@@ -9,6 +9,7 @@ Algorithms used for PDF steganography tools (more details in writeStego.py and r
  - Modifying /MediaBox array's values 
  - Modifying Page Tree's /Count value to hide pages (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7517136/)
  - Modifying PDF stream's TJ text operator's values
+ - 
 *Tools for hiding data in PDF files were written for Windows OS.
 
 ##############################################################################################################################################
@@ -16,6 +17,7 @@ Algorithms used for PDF steganography tools (more details in writeStego.py and r
 Tools for analyzing PDF stream's text operators.
  - Counting how many text operators' values the PDF file contains
  - Extracting all of the TJ operator's values [for steganalysis against pdf_hide tool (https://github.com/ncanceill/pdf_hide) by N. Canceill]
+ - 
 *Tools for hiding data in PDF files were written for Linux OS and require qpdf (https://github.com/qpdf/qpdf) installation:
 
 sudo apt-get update
