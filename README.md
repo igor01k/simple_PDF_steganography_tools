@@ -22,6 +22,7 @@ Tools for analyzing PDF stream's text operators.
 *Tools for hiding data in PDF files were written for Linux OS and require qpdf (https://github.com/qpdf/qpdf) installation:
 
 sudo apt-get update
+
 sudo apt-get install qpdf
 
 ##############################################################################################################################################
